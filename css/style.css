@@ -1,0 +1,277 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sideBar {
+  float: left;
+  width: 10%;
+  height: 100%;
+  background: #191718;
+}
+.sideBar div {
+  height: 44px;
+}
+.sideBar div:hover {
+  background: #5c5c5c !important;
+}
+
+.sideBar div:hover p {
+  color: #ffffff !important;
+}
+
+.sideBar p {
+  padding-left: 16px;
+  padding-top: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #aaaaaa;
+  /* identical to box height */
+}
+/*  */
+main {
+  width: 100%;
+  height: 935px;
+}
+.content {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  gap: 15px;
+}
+.imgLogo {
+  width: 310px;
+  height: 122px;
+  margin-top: 20px;
+  background: url(/img/logoNCC\ 1.png);
+}
+.container {
+  width: 90%;
+  height: 210px;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #efefef;
+  margin-top: 20px;
+}
+
+.container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.containerCard {
+  gap: 10px;
+  display: flex;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.logoCard {
+  width: 128px;
+  height: 128px;
+
+  background: url(/img/css-icon\ 1.png);
+}
+.logoCard2 {
+  width: 128px;
+  height: 128px;
+
+  background: url(/img/html-icon\ 1.png);
+}
+.logoCard3 {
+  width: 128px;
+  height: 128px;
+
+  background: url(/img/url-icon\ 1.png);
+}
+.cardContent {
+  width: 326px;
+  height: 134px;
+}
+.cardContent p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.cardFooter {
+  width: 100%;
+  height: 72px;
+}
+.cardFooter p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.card1 {
+  width: 420px;
+  height: 252px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+@media screen and (max-width: 1200px) {
+  .container span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .container {
+    margin: 0;
+  }
+  .sideBar {
+    width: 15%;
+  }
+  .content {
+    width: 85%;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .sideBar {
+    height: 125%;
+  }
+}
+@media screen and (max-width: 997px) {
+  .container span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .container {
+    margin: 0;
+  }
+  .sideBar {
+    width: 15%;
+  }
+  .content {
+    width: 85%;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .sideBar {
+    height: 125%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .container {
+    margin: 0;
+  }
+  .sideBar {
+    width: 15%;
+  }
+  .content {
+    width: 85%;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .sideBar {
+    height: 125%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    height: 100%;
+  }
+  .sideBar p {
+    padding: 14px 0;
+  }
+  .container span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .container {
+    margin: 0;
+  }
+  .sideBar {
+    width: 15%;
+  }
+  .content {
+    width: 85%;
+  }
+  .group {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .sideBar {
+    height: 125%;
+  }
+
+  .cardContent {
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+  .card1 {
+    width: 330px;
+  }
+  .logoCard,.logoCard2,.logoCard3 {
+    width: 200px;
+  }
+}
